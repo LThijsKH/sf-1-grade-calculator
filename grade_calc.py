@@ -9,7 +9,7 @@ midterm_2 = input("Enter grade for Midterm 2: ")
 final_grade = input("Enter grade for Final Exam: ") 
 midterm_and_prep_grade = input("Enter grade for Midterms and Final Preparation: ")
 labs = 0
-if (num_oflabs >=6): 
+if (num_of_labs >=6): 
 	labs = 100*0.2
 else:
 	labs = (num_of_labs/6) * 0.20	
