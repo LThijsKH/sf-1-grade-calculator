@@ -29,3 +29,5 @@ def midterm_and_prep (midterm_and_prep_grade):
 def grade (lab_programming_problems, quizzes, assignments, midterms, final, midterm_and_prep):
 	return(lab_programming_problems + quizzes + assignments + midterms + final + midterm_and_prep)*100
 print(grade + "%")
+
+#Done
