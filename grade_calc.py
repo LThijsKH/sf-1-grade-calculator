@@ -28,6 +28,5 @@ def midterm_and_prep (midterm_and_prep_grade):
 	return(midterm_and_prep_grade *0.06)
 def grade (lab_programming_problems, quizzes, assignments, midterms, final, midterm_and_prep):
 	return(lab_programming_problems + quizzes + assignments + midterms + final + midterm_and_prep)*100
-print(grade + "%")
+print("You're average is: " grade + "%")
 
-#Done
