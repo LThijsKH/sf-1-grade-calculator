@@ -11,7 +11,6 @@ final_grade = float(input("Enter grade for Final Exam: ") )
 midterm_and_prep = float(input("Enter grade for Midterms and Final Preparation: "))
 
 #Calculating Each competencie with its weight
-
 if (num_of_labs >=6): 
 	labs = 100*0.2
 else:
@@ -28,5 +27,6 @@ midterm_prep = (midterm_and_prep) * 0.06
 
 #Calulating the final grade
 grade = labs + quizs + assignments + midterms + final + midterm_prep
-print(f"Your grade is: {grade:.2f}")
+print("Your grade is: " +str(round(grade, 2)))
+
 
